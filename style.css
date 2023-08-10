@@ -346,6 +346,35 @@
         width: 300px;
     }
 
+    .footer-service-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+       
+        
+    }
+    .footer-service-content a{
+        font-size: 12px;
+        font-weight: 200;
+        margin-right: 10px;
+    }
+    .footer-social-link{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .footer-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-content a {
+        font-size: 12px;
+        font-weight: 400;
+        margin-right: 20px;
+        margin-left: 20px;
+    
+    }
+
 
 
 }
