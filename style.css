@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.header-title {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-title span {
+    color: #ff42a5;
+}
+
+.gamer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 40px 240px;
+}
+
+.nav-item ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-item ul li {
+    list-style: none;
+}
+
+.nav-item ul li a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follow-us {
+    display: flex;
+    gap: 20px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 18px 10px;
+    align-items: center;
+}
+
+.nav-item {
+    align-items: center;
+    text-align: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 240px;
+}
+
+.banner-content {
+    margin-top: 140px;
+}
+
+.section-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.banner-title {
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-description {
+    margin-top: 0px;
+}
+
+.banner-description a {
+    text-decoration: none;
+    color: #534C64;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.btn-primary,
+.btn-secondary {
+    border-radius: 48px;
+    background: #FF42A5;
+    padding: 21px 40px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-secondary {
+    background: #4EC5F7;
+
+}
+
+.We-are-gamer {
+    display: flex;
+    padding: 50px 240px;
+    gap: 50px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.section-content {
+    text-align: right;
+}
+
+.text-color-gradient {
+    text-align: right;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.purpose {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.gamer-instruction {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.online-games-content {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+.card-title {
+    width: 350px;
+}
+
+.play-download-install {
+    display: flex;
+    justify-content: space-around;
+    gap: 270px;
+    margin: 100px 240px;
+}
+
+.play-section-content {
+    margin-top: 80px;
+}
+
+.play-title {
+    text-align: right;
+}
+
+.relative-img {
+    position: relative;
+    bottom: 300px;
+    right: 200px;
+}
+
+.footer {
+    background: #0B0223;
+}
+
+.footer-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-header-title {
+    color: #FFF;
+}
+
+.footer-service-content {
+    text-align: center;
+
+}
+
+.footer-service-content a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 60px;
+
+}
+
+.footer-social-link {
+    text-align: center;
+    margin: 70px;
+}
+
+.footer-social-link a {
+    color: #FFFFFF;
+    font-size: 40px;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 60px;
+
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+    padding-bottom: 130px;
+
+}
+
+@media screen and (max-width: 576px) {
+    .nav {
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px 0px;
+    }
+
+    .nav-item ul {
+        flex-direction: column;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        margin: 5px 10px;
+        gap: 5px;
+    }
+
+    .banner-content {
+        margin-top: 10px;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    .We-are-gamer {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .gamer-img img {
+        width: 100%;
+    }
+
+    .section-content {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 1px 20px;
+    }
+
+    .card img {
+        width: 100%;
+
+    }
+
+    .card-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-download-install {
+        flex-direction: column;
+        margin: 0px 10px;
+    }
+
+    .play-section-content {
+        margin-bottom: 0px;
+    }
+
+    .section-img .main-img img {
+        width: 400px;
+        margin-top: 0px;
+    }
+
+    .section-img .relative-img img {
+        width: 300px;
+    }
+
+
+
+}
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .nav {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        margin: 5px 10px;
+        gap: 5px;
+    }
+
+    .banner-content {
+        margin-top: 10px;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    .We-are-gamer {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .gamer-img img {
+        width: 100%;
+    }
+
+    .section-content {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 1px 20px;
+    }
+
+    .card img {
+        width: 100%;
+
+    }
+
+    .card-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-download-install {
+        flex-direction: column;
+        margin: 5px 10px;
+    }
+
+    .play-download-install .main-img {
+        margin-top: 5px;
+        margin-left: 100px;
+        margin-right: 10px;
+    }
+
+    .play-download-install .main-img img {
+        width: 70%;
+
+    }
+
+    .play-download-install .relative-img img {
+        margin-left: 200px;
+    }
+
+
+
+}
