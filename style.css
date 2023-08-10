@@ -359,7 +359,7 @@
 
     .play-download-install {
         flex-direction: column;
-        margin: 0px 10px;
+        margin: 0px 0px;
     }
 
     .play-section-content {
@@ -374,6 +374,25 @@
     .section-img .relative-img img {
         width: 300px;
     }
+
+    .games-type {
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        padding-left: 0px;
+
+    }
+    .game img {
+        width:30px;
+    }
+    .game{
+        font-size: 5px;
+    }
+
+  
+
 
     .footer-service-content {
         display: grid;
@@ -489,6 +508,57 @@
 
     .play-download-install .relative-img img {
         margin-left: 200px;
+    }
+    .games-type {
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        padding-left: 0px;
+
+    }
+    .game img {
+        width:30px;
+    }
+    .game{
+        font-size: 5px;
+    }
+
+  
+
+
+    .footer-service-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+
+
+    }
+
+    .footer-service-content a {
+        font-size: 12px;
+        font-weight: 200;
+        margin-right: 10px;
+    }
+
+    .footer-social-link {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-content a {
+        font-size: 12px;
+        font-weight: 400;
+        margin-right: 20px;
+        margin-left: 20px;
+
     }
 
 
