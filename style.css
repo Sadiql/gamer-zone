@@ -185,7 +185,7 @@
     display: flex;
     justify-content: space-around;
     gap: 270px;
-    margin: 100px 240px;
+    margin: 100px 240px 0px 240px;
 }
 
 .play-section-content {
@@ -201,6 +201,35 @@
     bottom: 300px;
     right: 200px;
 }
+
+.games-type {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+
+}
+
+.game {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.game:hover {
+    border: 2px solid #FF42A5;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+
+
+
+
+
+
 
 .footer {
     background: #0B0223;
@@ -350,29 +379,33 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
-       
-        
+
+
     }
-    .footer-service-content a{
+
+    .footer-service-content a {
         font-size: 12px;
         font-weight: 200;
         margin-right: 10px;
     }
-    .footer-social-link{
+
+    .footer-social-link {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
-    .footer-content{
+
+    .footer-content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
     .footer-content a {
         font-size: 12px;
         font-weight: 400;
         margin-right: 20px;
         margin-left: 20px;
-    
+
     }
 
 
